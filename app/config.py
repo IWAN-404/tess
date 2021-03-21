@@ -38,7 +38,7 @@ class Config:
 \033[1;97m{\033[1;91m+\033[1;97m} GITHUB     : https://github.com/DARKFACEBOOK378/L4TIF
 \033[1;97m{\033[1;91m+\033[1;97m} FACEBOOK   : https://www.facebook.com/LATIF.DEV.378
 \033[1;97m{\033[1;91m+\033[1;97m} WHATSAPP   : 0895323602XXX
-\033[1;97m{\033[1;91m+\033[1;97m} MY TEAM   : CyberGhost_378
+\033[1;97m{\033[1;91m+\033[1;97m} MY TEAM    : CyberGhost_378
 \033[1;94m_________________________________________________________'''
 
 	def httpRequest(self, url, cookies):
