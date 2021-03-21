@@ -137,12 +137,12 @@ class Brute:
 
 	def results(self):
 		if (len(self.ok) != 0):
-			print('\n\nOK: '+str(len(self.ok)))
-			for i in self.ok: print('\033[0;92m\033[1;97m[\033[1;92mOK\033[1;97m]\033[1;97m ' +str(i)+'\033[0m')
+			print(' \n\nOK: '+str(len(self.ok)))
+			for i in self.ok: print('\033[0;92m\033[1;97m[\033[1;92mOK\033[1;97m]\033[1;92m ' +str(i)+'\033[0m')
 			print('Your OK results saved in: out/ok.txt')
 		if (len(self.cp) != 0):
-			print('\n\nCP: '+str(len(self.cp)))
-			for i in self.cp: print('\033[0;93m\033[1;97m[\033[1;91mCP\033[1;97m]\033[1;97m '+str(i)+'\033[0m')
+			print(' \n\nCP: '+str(len(self.cp)))
+			for i in self.cp: print('\033[0;93m\033[1;97m[\033[1;93mCP\033[1;97m]\033[1;93m '+str(i)+'\033[0m')
 			print('Your CP results saved in: out/cp.txt')
 		if (len(self.cp) == 0 and len(self.ok) == 0):
 			print('\n\n033[0;91mNo results found :(\033[0m')
